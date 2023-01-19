@@ -1,0 +1,16 @@
+{
+  "deployment" :{
+     "capability":"tax",
+     "app_name":"sequence",
+     "environment":"dev",
+     "cost_code":"0001",
+     "deployment_type":"web",
+     "web-tier" : {
+        "count":4,
+        "recommended_instance_type":"Standard_B1s",
+        "disk_size":"256",
+        "image_name":"myimage",
+        "imageuri":""
+     }
+  }
+}
